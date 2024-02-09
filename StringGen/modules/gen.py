@@ -231,7 +231,7 @@ async def gen_session(
                 link_preview=False,
                 parse_mode="html",
             )
-            await client(JoinChannelRequest("@FallenAssociation"))
+            await client(JoinChannelRequest("@botdoku303"))
         else:
             string_session = await client.export_session_string()
             await client.send_message(
@@ -239,20 +239,20 @@ async def gen_session(
                 txt.format(ty, string_session, SUPPORT_CHAT),
                 disable_web_page_preview=True,
             )
-            await client.join_chat("FallenAssociation")
+            await client.join_chat("botdoku303")
     except KeyError:
         pass
     try:
         await client.disconnect()
         await Anony.send_message(
             chat_id=user_id,
-            text=f"sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ғᴏʀ ɢᴇᴛᴛɪɴɢ ɪᴛ.\n\nᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ <a href={SUPPORT_CHAT}>ғᴀʟʟᴇɴ ᴀssᴏᴄɪᴀᴛɪᴏɴ</a>.",
+            text=f"sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ғᴏʀ ɢᴇᴛᴛɪɴɢ ɪᴛ.\n\nᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ <a href={@BagasPrastio15}>ᴅᴏᴋᴜ ᴀssᴏᴄɪᴀᴛɪᴏɴ</a>.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
                             text="sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs",
-                            url=f"tg://openmessage?user_id={user_id}",
+                            url=f"tg://openmessage?user_id={user_id}890773951",
                         )
                     ]
                 ]
