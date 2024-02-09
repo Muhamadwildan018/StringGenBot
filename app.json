@@ -1,5 +1,5 @@
 {
-    "name": "Dan String Bot",
+    "name": "Doku String Bot",
     "description": "A Telegram Bot to generate Telethon and Pyrogram String Session.",
     "logo": "https://telegra.ph/file/654ddaf472f18b799600b.jpg",
     "keywords": [
@@ -25,12 +25,12 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "1279809368:AAHKCMb8V89KQrdgYSBG8sas3UMtQnsl07c",
         "required": true
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "",
+        "value": "890773951",
         "required": true
       },
       "MONGO_DB_URI": {
